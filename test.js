@@ -1,3 +1,8 @@
+const fs = require('fs');
+fs.unlink('./tasks.json', (err) => {
+  // テスト処理
+});
+
 'use strict';
 const todo = require('./index.js');
 const assert = require('assert');
